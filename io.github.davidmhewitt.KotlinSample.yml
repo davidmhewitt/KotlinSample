@@ -1,0 +1,111 @@
+app-id: io.github.davidmhewitt.KotlinSample
+runtime: io.elementary.Platform
+runtime-version: '6.1'
+sdk: io.elementary.Sdk
+sdk-extensions:
+  - 'org.freedesktop.Sdk.Extension.openjdk11'
+command: io.github.davidmhewitt.KotlinSample
+build-options:
+  env:
+    JAVA_HOME: /usr/lib/sdk/openjdk11
+    KONAN_DATA_DIR: /app/konan/
+finish-args:
+  - '--share=ipc'
+  - '--socket=fallback-x11'
+  - '--socket=wayland'
+modules:
+  - name: kotlin-native
+    buildsystem: simple
+    sources:
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/builds/releases/1.5/linux/kotlin-native-prebuilt-linux-1.5.tar.gz
+        sha256: 72733215624a6308ea713a745351db4f2026e2d4084d18341755e814d2aa8bc9
+        strip-components: 1
+        dest: kotlin-native
+    build-commands:
+      - cp -r kotlin-native $FLATPAK_DEST/kotlin-native
+    cleanup: [ '*' ]
+    build-options:
+      no-debuginfo: true
+
+  - name: konan-deps
+    buildsystem: simple
+    sources:
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/clang-llvm-8.0.0-linux-x86-64.tar.gz
+        sha256: a9ebf55170bdbe5e089dbf884e0bc52065b5b7bc52e9354415e25a36e10e56c5
+        strip-components: 0
+        dest: dependencies
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/libffi-3.2.1-2-linux-x86-64.tar.gz
+        sha256: 9d817bbca098a2fa0f1d5a8b9e57674c30d100bb4c6aeceff18d8acc5b9f382c
+        strip-components: 0
+        dest: dependencies
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/lldb-3-linux.tar.gz
+        sha256: 94240b9d7fdc72455af8472ce0088d3177a4840b409ec1b5e6be255ab20e4182
+        strip-components: 0
+        dest: dependencies
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/lldb-4-linux.tar.gz
+        sha256: b1e145c859f44071f66231cfc98c8c16a480cbf47139fcd5dd2df4bf041fdfda
+        strip-components: 0
+        dest: dependencies
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/llvm-11.1.0-linux-x64-essentials.tar.gz
+        sha256: e5d8d31282f1eeefff006da74f763ca18ee399782d077ccd92693b51feb17a21
+        strip-components: 0
+        dest: dependencies
+      - type: archive
+        url: https://download.jetbrains.com/kotlin/native/x86_64-unknown-linux-gnu-gcc-8.3.0-glibc-2.19-kernel-4.9-2.tar.gz
+        sha256: a048397d50fb5a2bd6cc0f89d5a30e0b8ff0373ebff9c1d78ce1f1fb7f185a50
+        strip-components: 0
+        dest: dependencies
+    build-commands:
+      - mkdir -p $FLATPAK_DEST/konan
+      - cp -r dependencies $FLATPAK_DEST/konan/dependencies
+      - echo clang-llvm-8.0.0-linux-x86-64 >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - echo libffi-3.2.1-2-linux-x86-64 >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - echo lldb-3-linux >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - echo lldb-4-linux >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - echo llvm-11.1.0-linux-x64-essentials >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - echo x86_64-unknown-linux-gnu-gcc-8.3.0-glibc-2.19-kernel-4.9-2 >> $FLATPAK_DEST/konan/dependencies/.extracted
+      - mkdir /app/lib
+      - ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6 /app/lib/libtinfo.so.5
+    cleanup: [ '*' ]
+    build-options:
+      no-debuginfo: true
+
+  - name: maven-modules
+    buildsystem: simple
+    sources:
+      - 'maven-modules.json'
+    build-commands:
+      - cp -r maven-local $FLATPAK_DEST/maven-local
+    cleanup: [ '*' ]
+    build-options:
+      no-debuginfo: true
+
+  - name: gtk-kt
+    buildsystem: simple
+    sources:
+      - type: git
+        url: https://gitlab.com/gtk-kt/gtk-kt
+        commit: d7a99d5e5e896c3b7304af7fdf0629477e443a46
+      - type: patch
+        path: local-maven-repository.patch
+    build-commands:
+      - /usr/lib/sdk/openjdk11/bin/gradle -Pkotlin.native.home=/app/kotlin-native --offline nativex:pango:publish nativex:cairo:publish nativex:glib:publish nativex:glib-object:publish nativex:gio:publish nativex:publish dsl:publish
+    cleanup: [ '*' ]
+    build-options:
+      no-debuginfo: true
+
+  - name: sample
+    buildsystem: simple
+    sources:
+      - type: dir
+        path: .
+    build-commands:
+      - /usr/lib/sdk/openjdk11/bin/gradle -Pkotlin.native.home=/app/kotlin-native --offline build
+      - mkdir $FLATPAK_DEST/bin
+      - cp build/bin/native/debugExecutable/KotlinSample.kexe $FLATPAK_DEST/bin/io.github.davidmhewitt.KotlinSample

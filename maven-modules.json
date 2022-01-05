@@ -1,0 +1,656 @@
+[
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0/kotlin-gradle-plugin-1.5.0.jar",
+        "sha256": "0f556f5d82ae4277592a9ade9717e1cb2cbf5f87bb6cab6b5526bd4478d1d50e",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0/kotlin-gradle-plugin-api-1.5.0.jar",
+        "sha256": "c6404f1eae6a2c6cc671d2de6d991b70aee7b541392ea8ecd222f27c2e355a57",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.jar",
+        "sha256": "52283996fe4067cd7330288b96ae67ecd463614dc741172c54d9d349ab6a9cd7",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+        "sha256": "ace2a10dc8e2d5fd34925ecac03e4988b2c0f851650c94b8cef49ba1bd111478",
+        "dest": "maven-local/org/jetbrains/annotations/13.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/annotations/13.0/annotations-13.0.pom",
+        "sha256": "965aeb2bedff369819bdde1bf7a0b3b89b8247dd69c88b86375d76163bb8c397",
+        "dest": "maven-local/org/jetbrains/annotations/13.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.jar",
+        "sha256": "c14ce6720a487b5e238f1b0c30ac3ad73e45b90a40731ca0b1cfddec1a37682f",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0/kotlin-stdlib-common-1.5.0.pom",
+        "sha256": "d3852184b2c3bd26d8681ef8fc3977c2a301153d27871f11df8e2c115de7f104",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.0/kotlin-stdlib-1.5.0.pom",
+        "sha256": "95c92ed856dbdf768325a6f28d670a2da70a49b0da56a0751da2d1d35a7b99b5",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0/kotlin-gradle-plugin-api-1.5.0.pom",
+        "sha256": "75334406040247a5333b29f5556ea7248e5ea9befe2ab31aa3f08996806af5d8",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0/kotlin-gradle-plugin-model-1.5.0.jar",
+        "sha256": "1fdbd4fed78f1aa859e68dbbfcc45e4897a70de0018ec88709531e2ef7d055d5",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0/kotlin-gradle-plugin-model-1.5.0.pom",
+        "sha256": "0728a9bf940ce7b380ae746fd2c3069579eb9874d2eb23da5a0697e5d0cef33f",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin-model/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/1.5.0/kotlin-util-klib-1.5.0.jar",
+        "sha256": "2c194c63eda753ebf395c7ffaafe2385a20577d61f9d3c891c730e41a1a3a25e",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-util-klib/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/1.5.0/kotlin-util-io-1.5.0.jar",
+        "sha256": "a19bf658bb9a9b1a6d265c5ccb0b5fe4d360e6ccdbeca6d947b276b85abc7af6",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-util-io/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-io/1.5.0/kotlin-util-io-1.5.0.pom",
+        "sha256": "2c0503ca00a22e59b100d8aa65a18eb490f05f793568815f9f3aa79c73a95929",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-util-io/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-util-klib/1.5.0/kotlin-util-klib-1.5.0.pom",
+        "sha256": "9d9f0c0e9380d2ae6df6d9ebbd4cdd0cdb766096528aa4498176b77ab73b4607",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-util-klib/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar",
+        "sha256": "c8fb4839054d280b3033f800d1f5a97de2f028eb8ba2eb458ad287e536f3f25f",
+        "dest": "maven-local/com/google/code/gson/gson/2.8.6"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/sonatype/oss/oss-parent/7/oss-parent-7.pom",
+        "sha256": "b51f8867c92b6a722499557fc3a1fdea77bdf9ef574722fe90ce436a29559454",
+        "dest": "maven-local/org/sonatype/oss/oss-parent/7"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson-parent/2.8.6/gson-parent-2.8.6.pom",
+        "sha256": "3736463859ec19267295e894940ae82a8f684413031122fe35ce7cff7e30a774",
+        "dest": "maven-local/com/google/code/gson/gson-parent/2.8.6"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/com/google/code/gson/gson/2.8.6/gson-2.8.6.pom",
+        "sha256": "2174415a647332d30fda04bd1cfc708a3ecc84eaf7517f596188d8244e103911",
+        "dest": "maven-local/com/google/code/gson/gson/2.8.6"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.jar",
+        "sha256": "eb08b570e408d4646705e70a949614d439ea2b11455f1652ab0330de8954dab9",
+        "dest": "maven-local/de/undercouch/gradle-download-task/4.1.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/de/undercouch/gradle-download-task/4.1.1/gradle-download-task-4.1.1.pom",
+        "sha256": "1109f1f71a54254d590337d8b9d443f9dfc08728c9c1d8335655cc1dcc88c0b9",
+        "dest": "maven-local/de/undercouch/gradle-download-task/4.1.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4.jar",
+        "sha256": "def9b4225fa37219e18f81d01f0e52d73dca1257a38f5475be9dd58f87736510",
+        "dest": "maven-local/com/github/gundy/semver4j/0.16.4"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/com/github/gundy/semver4j/0.16.4/semver4j-0.16.4.pom",
+        "sha256": "32001db2443b339dd21f5b79ff29d1ade722d1ba080c214bde819f0f72d1604d",
+        "dest": "maven-local/com/github/gundy/semver4j/0.16.4"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.jar",
+        "sha256": "d7b85448039e468daf3b9462a172244477fa3eb890f199ec77703992f36ade44",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.jar",
+        "sha256": "f2d45a350628bdfea25570c4c3f29198087e0f8cf53d87d928fb0da8a30c8fb7",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0/kotlin-script-runtime-1.5.0.pom",
+        "sha256": "9f7ffae32d89620d419e7f9f7d3fd0c5a7c21d307ffd1835f7004d8cae99416b",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-script-runtime/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.jar",
+        "sha256": "e30acc4ff74534177d1657feafb57327ede838ae17763aeaae182a9109d26157",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.0/kotlin-reflect-1.5.0.pom",
+        "sha256": "c833a8024fb8a62b5639e429635d9fb358507742222405c12d4a94de1eeea22d",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.jar",
+        "sha256": "bf32071706cf3c20580516b04d25a733c7a21db9cd9d04fc7060c00720bc91bc",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0/kotlin-daemon-embeddable-1.5.0.pom",
+        "sha256": "4d10c9c5d24653a2fedff2ed151e6a16e929cbe9df2dedf7aead76bc36c3e7bb",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.jar",
+        "sha256": "affb7c85a3c87bdcf69ff1dbb84de11f63dc931293934bc08cd7ab18de083601",
+        "dest": "maven-local/org/jetbrains/intellij/deps/trove4j/1.0.20181211"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/intellij/deps/trove4j/1.0.20181211/trove4j-1.0.20181211.pom",
+        "sha256": "310a6aa2d90534c32b8f46f1fc98cd0edae95dcdfca23e2847e5efa9ae0c019a",
+        "dest": "maven-local/org/jetbrains/intellij/deps/trove4j/1.0.20181211"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0/kotlin-compiler-embeddable-1.5.0.pom",
+        "sha256": "db563cb627ec6d7aade8e9440f1f17e29992935d91f525e8f8f6f23776244fb5",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0/kotlin-annotation-processing-gradle-1.5.0.jar",
+        "sha256": "fe6363d566889654bed94aa53c5acf9760ea1b6548949bcf4450eb61594bd3f6",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0/kotlin-annotation-processing-gradle-1.5.0.pom",
+        "sha256": "a2508f50d385486461eff3ea62d72c0e1af5aeab6c80ee9793624104be819deb",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0/kotlin-android-extensions-1.5.0.jar",
+        "sha256": "136641dc9f3d7b8f090d2767ca152d055bff51f4e19ddf32891cfde6f67a2ad1",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0/kotlin-android-extensions-1.5.0.pom",
+        "sha256": "3b1e6c1de1bf11e6522d41a1e9be78e08b9581b6cf5ea539a5d77b8abc3b6a54",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-android-extensions/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0/kotlin-compiler-runner-1.5.0.jar",
+        "sha256": "38059a45746d49de93d15443220592ac5a18977a3a5c391603258c2eef13f67c",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-common/1.5.0/kotlin-build-common-1.5.0.jar",
+        "sha256": "4c89fc3e067066a340d4acce839702745573699460b44ac1796858d8a1dacfe6",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-build-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-build-common/1.5.0/kotlin-build-common-1.5.0.pom",
+        "sha256": "94b35431964784c4032747a90f296380b5b34eab39589ba7e666a23185b7a61c",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-build-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0/kotlin-daemon-client-1.5.0.jar",
+        "sha256": "4f23fbbee4eb85067ba122047a6f44247993a8c02427ecdb41a00ea3a86a5cef",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.jar",
+        "sha256": "f8c8b7485d4a575e38e5e94945539d1d4eccd3228a199e1a9aa094e8c26174ee",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.jar",
+        "sha256": "5ace22b102a96425e4ac44e0558b927f3857b56a33cbc289cf1b70aee645e6a7",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.jar",
+        "sha256": "974f8a9b7bfce3d730a86efe0eab219a72621e8530f91e30c89f400ba98092ec",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-common/1.3.71/kotlin-test-common-1.3.71.jar",
+        "sha256": "b41224633b97ad9a55bb6fe881fe14a1f5476c886c77df996b4c3b6883ca6941",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-annotations-common/1.3.71/kotlin-test-annotations-common-1.3.71.jar",
+        "sha256": "92857c9d292fcb95e96a3b753caf38a4e141b69dd185b397110278e5c3df9a13",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-annotations-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-annotations-common/1.3.71/kotlin-test-annotations-common-1.3.71.pom",
+        "sha256": "ed59b2b4ef122df9f038c04eb65eee3acfd6bd043d2fa9beb93e997deff6e678",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-annotations-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-common/1.3.71/kotlin-test-common-1.3.71.pom",
+        "sha256": "6ab218cc4027218912d7faa114f96b065cc52235a29886df21da34ce955a9fa6",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71/kotlin-stdlib-common-1.3.71.pom",
+        "sha256": "93f5cb50148dee7da746ed487e6278ee8d94da9a99b670f9f5248456c2f66341",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-junit/1.3.71/kotlin-test-junit-1.3.71.jar",
+        "sha256": "ab12fd0079ec6c908cf8f0203f9235e5329134f67087b9557b02fb40085ced13",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-junit/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test/1.3.71/kotlin-test-1.3.71.jar",
+        "sha256": "d9236ecd3c5b22c23e2892537276f3c1fab63f439b5bdceb115a8768aacb3998",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/junit/junit/4.12/junit-4.12.jar",
+        "sha256": "59721f0805e223d84b90677887d9ff567dc534d7c502ca903c0c2b17f05c116a",
+        "dest": "maven-local/junit/junit/4.12"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar",
+        "sha256": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+        "dest": "maven-local/org/hamcrest/hamcrest-core/1.3"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/hamcrest/hamcrest-parent/1.3/hamcrest-parent-1.3.pom",
+        "sha256": "6d535f94efb663bdb682c9f27a50335394688009642ba7a9677504bc1be4129b",
+        "dest": "maven-local/org/hamcrest/hamcrest-parent/1.3"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom",
+        "sha256": "fde386a7905173a1b103de6ab820727584b50d0e32282e2797787c20a64ffa93",
+        "dest": "maven-local/org/hamcrest/hamcrest-core/1.3"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/junit/junit/4.12/junit-4.12.pom",
+        "sha256": "90f163f78e3ffb6f1c7ad97de9e7eba4eea25807141b85d6d12be67ca25449c4",
+        "dest": "maven-local/junit/junit/4.12"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test/1.3.71/kotlin-test-1.3.71.pom",
+        "sha256": "b5c1bb39ecf93bc46eb7cc6734f1d18e40cbbe7abd0c323435fb9aeeccd2b259",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-test-junit/1.3.71/kotlin-test-junit-1.3.71.pom",
+        "sha256": "865b8f081887a8ccd0d33a3d9e86de5b648dcdf13389228dc384fdb13dbf8b40",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-test-junit/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.3.71/kotlin-stdlib-1.3.71.pom",
+        "sha256": "ff03e9989faa2d40fa4a9098aaad71e247f27ea4d24b0754da642eb0924bd8c5",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.3.71"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8/kotlinx-coroutines-core-1.3.8.pom",
+        "sha256": "24ffa65bdfb7d893349cb2e78fb3714a490dd0a9c07375744bb136e9804807fd",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.3.8"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0/kotlin-daemon-client-1.5.0.pom",
+        "sha256": "6d0e987498b968aeb99dcd9a9df62961baac827a71fee04298bf8dc18875f2d5",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-daemon-client/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0/kotlin-compiler-runner-1.5.0.pom",
+        "sha256": "0050ade2071497236d820943587bb1e4b117f464c99ae97a72a7bf7acb8f2df7",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-compiler-runner/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.jar",
+        "sha256": "b0d7f061f5423e699c940d7a5389972eda2b4e15c8a68f8d8c9014dc3a10ebb2",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.jar",
+        "sha256": "f9fecbf99f984826fc282b7afb7dff7990abc9e7f572741e87b56da304eb51cf",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.jar",
+        "sha256": "9acf9e892fc8f9d0ce7053b07090542f661e1753fc1815056045a94010203c9a",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0/kotlin-scripting-common-1.5.0.pom",
+        "sha256": "ae507333c30eedefa882a27ff524ef658f30bc22b1b4987fbe12ebea8d561c31",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-common/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.jar",
+        "sha256": "e9637b845793edacc219745aa3c39ed3033cde62e5d55be54715568b494ce675",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0/kotlin-scripting-jvm-1.5.0.pom",
+        "sha256": "57f94587198b95d52e893a244c85f69740aa6b417b48115814c72d5c515be055",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-jvm/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0/kotlin-scripting-compiler-impl-embeddable-1.5.0.pom",
+        "sha256": "42039f8f9c141cd0697a74a6c0422b5e240d9002dcbe3b2df5a9e85751b42bb6",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-impl-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0/kotlin-scripting-compiler-embeddable-1.5.0.pom",
+        "sha256": "c6683b4abef503618dbc2bb83951063e202fb690c5f983c4244f62972b5da0e4",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-scripting-compiler-embeddable/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0/kotlin-gradle-plugin-1.5.0.pom",
+        "sha256": "8bdde19aed13083f1518707e6910cff840adbcb66ad3fc5865a24fe2c00cce3c",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-gradle-plugin/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/multiplatform/org.jetbrains.kotlin.multiplatform.gradle.plugin/1.5.0/org.jetbrains.kotlin.multiplatform.gradle.plugin-1.5.0.pom",
+        "sha256": "e152a4a5abaaab9bff7f87e20d848cdf3611cb4b5e986a45b2950057e62d82c5",
+        "dest": "maven-local/org/jetbrains/kotlin/multiplatform/org.jetbrains.kotlin.multiplatform.gradle.plugin/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.21/kotlin-stdlib-1.5.21.jar",
+        "sha256": "9d212b5aef23f805e0161853a5f5aefe8965b8766c889317b60f1b58bd1cf9ad",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.21/kotlin-stdlib-common-1.5.21.jar",
+        "sha256": "8f3fffcfde2b725da91ebf21d8282eea5a29e04659454edd1054b34419f04031",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.21/kotlin-stdlib-common-1.5.21.pom",
+        "sha256": "558666cdf78dc2de68c24860c848741535ddff9f1810103e76400fe5344861b4",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib/1.5.21/kotlin-stdlib-1.5.21.pom",
+        "sha256": "d695a9521ba444588b86c4ed96102283191b227f9bee662941bc61f666aed74c",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.21/kotlin-reflect-1.5.21.jar",
+        "sha256": "72c7e1ce44a0e6bcf81b30e78413d73d59be0d32b99a20659922f92a8e4cec83",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-reflect/1.5.21/kotlin-reflect-1.5.21.pom",
+        "sha256": "1af1a3ebc7540a9488ae815161738b9cf5f95fa2fe5e7fda19bdfba6f7b8ff2e",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-reflect/1.5.21"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt/kotlinx-coroutines-core-1.5.0-native-mt-all.jar",
+        "sha256": "cb700579fc77d99b2574c5c72e72a44c3171d77f33c19d88550123c0d30e4a3e",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt/kotlinx-coroutines-core-1.5.0-native-mt.jar",
+        "sha256": "eabfaf452a0ced072c6864675521e16588b2d13b6842a7130ae70ab631fe7c38",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt/kotlinx-coroutines-core-1.5.0-native-mt.module",
+        "sha256": "c34c09a753c46447131db0ed69825577f4cc7b32a4b87a3cefa4666564ed02bb",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.jar",
+        "sha256": "7395471980143f1202355cbf5d4e05bca2bf294ae0c17233e544ede215c97f64",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.jar",
+        "sha256": "7395471980143f1202355cbf5d4e05bca2bf294ae0c17233e544ede215c97f64",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.jar",
+        "sha256": "7395471980143f1202355cbf5d4e05bca2bf294ae0c17233e544ede215c97f64",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.module",
+        "sha256": "2e71f996636366f5cce5fdf5f93d6008acad5e45a4b3f7653685974cccc71e08",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0/kotlin-stdlib-jdk8-1.5.0.jar",
+        "sha256": "15e6c81b9e845eefe58d51a04670bb90418046f458264ec0e61ee9bdbc1bfae7",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0/kotlin-stdlib-jdk7-1.5.0.jar",
+        "sha256": "ac12f092f12b575c1f9e0ab5025b1e610b0fe95663e26371c16c328895711bae",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0/kotlin-stdlib-jdk7-1.5.0.pom",
+        "sha256": "ed3e6cd34c3d3a773da0e007bb12e164548725464e5adb61644a98fb29254ad1",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0/kotlin-stdlib-jdk8-1.5.0.pom",
+        "sha256": "d0bb3e9d3c63e1ed9b07794f856b722042705717df30510e4cce113ee2ca594d",
+        "dest": "maven-local/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.5.0"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt/kotlinx-coroutines-core-jvm-1.5.0-native-mt.pom",
+        "sha256": "108c18c0aa533fcf568a1c047bfa0b349511730bb83fbf26f7b11c41b558dbc5",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt/kotlinx-coroutines-core-1.5.0-native-mt.pom",
+        "sha256": "207f2d1fe926a8bec1dace5e5369b1ca59b50115b70fff658f3fb27204dc7f5b",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt/kotlinx-coroutines-core-linuxx64-1.5.0-native-mt.klib",
+        "sha256": "a27e940b3f15d0f60a359f1adf03919abbb529064202b5f504909c8d8cd91891",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt/kotlinx-coroutines-core-linuxx64-1.5.0-native-mt.klib",
+        "sha256": "a27e940b3f15d0f60a359f1adf03919abbb529064202b5f504909c8d8cd91891",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt/kotlinx-coroutines-core-linuxx64-1.5.0-native-mt.module",
+        "sha256": "6ed36bd7bfbe5a06da9431197bfa0175d0f84deef01016aebcef926dfd5c03d7",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1/atomicfu-linuxx64-0.16.1.klib",
+        "sha256": "1d21b418a6bab0d059cf10da74a755ccf82217023b4eacb2e19686bb9a16ea94",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1/atomicfu-linuxx64-0.16.1.klib",
+        "sha256": "1d21b418a6bab0d059cf10da74a755ccf82217023b4eacb2e19686bb9a16ea94",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1/atomicfu-linuxx64-0.16.1-cinterop-interop.klib",
+        "sha256": "d3dcf4f6f6b825d8b1cbd91d595d4f3c22886b0c092e8a229142f052e26537ff",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1/atomicfu-linuxx64-0.16.1.module",
+        "sha256": "746c402e7051117d97cb3a283c99fa0fb8862dd0bd908f80299fd93c2b08fe48",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1/atomicfu-linuxx64-0.16.1.pom",
+        "sha256": "6606196ed187e66796f634ecc35d9fd7d90805b679af6441ee720e09d204a14d",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-linuxx64/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt/kotlinx-coroutines-core-linuxx64-1.5.0-native-mt.pom",
+        "sha256": "1e4d1ae7adbfcf885ae4f5a4e151a7060434d01e088577d956b1e4e4200a7199",
+        "dest": "maven-local/org/jetbrains/kotlinx/kotlinx-coroutines-core-linuxx64/1.5.0-native-mt"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu/0.16.1/atomicfu-0.16.1-all.jar",
+        "sha256": "9e3c37269f9d4ffc3edbd4f667e42fe27e92b06bb98e6815da6f19e635275654",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu/0.16.1/atomicfu-0.16.1.jar",
+        "sha256": "a5d2f521cca17307e62ea94d7c09424ad247472adbe0118032b85cdb4d631fac",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu/0.16.1/atomicfu-0.16.1.module",
+        "sha256": "fdcf04fc25f6a43f557f341ee0053caa25e759f591169c86566f1dad37fc77a6",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1/atomicfu-jvm-0.16.1.jar",
+        "sha256": "f2b49c896e90e972bbdba4afc473e34b918e740ac22bafe002217c8130a7bb0c",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1/atomicfu-jvm-0.16.1.jar",
+        "sha256": "f2b49c896e90e972bbdba4afc473e34b918e740ac22bafe002217c8130a7bb0c",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1/atomicfu-jvm-0.16.1.jar",
+        "sha256": "f2b49c896e90e972bbdba4afc473e34b918e740ac22bafe002217c8130a7bb0c",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1/atomicfu-jvm-0.16.1.module",
+        "sha256": "812b488f96ac013bb093231a5fdb70d560887ea904261e65d5144655cb9b0463",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1/atomicfu-jvm-0.16.1.pom",
+        "sha256": "1307ce9b8d2f2551d8d7d66aa077c4a81e4ee6d93a0ab83bc75747306dcaa4b3",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu-jvm/0.16.1"
+    },
+    {
+        "type": "file",
+        "url": "https://plugins.gradle.org/m2/org/jetbrains/kotlinx/atomicfu/0.16.1/atomicfu-0.16.1.pom",
+        "sha256": "1143e2462ce847a3f99334c4a65c0f28a41ab2ffb7be3680d44320279d398499",
+        "dest": "maven-local/org/jetbrains/kotlinx/atomicfu/0.16.1"
+    }
+]
