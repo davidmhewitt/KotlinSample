@@ -70,6 +70,7 @@ modules:
       - echo lldb-4-linux >> $FLATPAK_DEST/konan/dependencies/.extracted
       - echo llvm-11.1.0-linux-x64-essentials >> $FLATPAK_DEST/konan/dependencies/.extracted
       - echo x86_64-unknown-linux-gnu-gcc-8.3.0-glibc-2.19-kernel-4.9-2 >> $FLATPAK_DEST/konan/dependencies/.extracted
+      # A bit hacky, but the konan toolchain downloaded above still depends on libtinfo 5, so the build doesn't work without this
       - mkdir /app/lib
       - ln -s /usr/lib/x86_64-linux-gnu/libtinfo.so.6 /app/lib/libtinfo.so.5
     cleanup: [ '*' ]
